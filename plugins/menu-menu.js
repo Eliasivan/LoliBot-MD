@@ -77,11 +77,11 @@ let menu = `『 ${wm} 』
 
 *Hola ${taguser}*
 
-\`□ Creador:\`  Mario
+\`□ Creador:\`  Ivan
 \`□ Numero del creador:\` 
-> ${asistencia}
+> +595 992 809980
 \`□ Numero del bot ofc:\`
-> ${bot}
+> +1 (505) 814-5540
 \`□ Tiempos activos :\` ${uptime}
 \`□ Usuarios:\` ${Object.keys(global.db.data.users).length}
 \`□ Registrado:\` ${rtotalreg} de ${totalreg} ${(conn.user.jid == global.conn.user.jid ? '' : `\n□ *Soy un sub bot del:* wa.me/${global.conn.user.jid.split`@`[0]}`) || ''}
@@ -95,7 +95,7 @@ https://youtu.be/O_j2q5xCg3A
 > □ *🔰 Mi estado:* ${typeof user.miestado !== 'string' ? '_#miestado || Estado no asignado_' : '_Me siento ' + user.miestado + '_'}
 > □ *🎖️ Nivel:* ${level}
 > □ *💎 Diamantes:* ${limit}
-> □ *👾 LoliCoins:* ${money}
+> □ *👾 IvanCoins:* ${money}
 > □ *🪙 Tokens:* ${joincount}
 > □ *🧰 Experiencia:* ${exp}
 > □ *⚓ Rango:* ${role}
